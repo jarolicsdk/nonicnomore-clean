@@ -3,7 +3,9 @@ export default function Home() {
     <main className="space-y-12 bg-[#F9FAFB] p-10 font-sans text-slate-800">
       <section className="rounded-xl bg-gradient-to-b from-[#AEE6F9] to-[#F9FAFB] p-10 text-center">
         <h1 className="mb-4 text-4xl font-bold">Quit Nicotine Without the Stress</h1>
-        <p className="mb-6 text-xl">Join thousands who have broken free through calm, science-backed guidance.</p>
+        <p className="mb-6 text-xl">
+          Join thousands who have broken free through calm, science-backed guidance.
+        </p>
         <button className="rounded-full bg-[#FF9F9F] px-6 py-3 font-semibold text-white hover:opacity-90">
           Start Your Journey
         </button>
@@ -12,7 +14,7 @@ export default function Home() {
       <section>
         <h2 className="mb-6 text-center text-2xl font-semibold">How It Works</h2>
         <div className="grid gap-6 text-center md:grid-cols-4">
-          {['Assess', 'Follow', 'Track', 'Break Free'].map((step, i) => (
+          {["Assess", "Follow", "Track", "Break Free"].map((step, i) => (
             <div key={i} className="rounded-lg bg-white p-6 shadow">
               <h3 className="mb-2 text-xl font-bold">{step}</h3>
               <p className="text-sm text-slate-600">Step {i + 1} of your calm journey</p>
@@ -36,7 +38,7 @@ export default function Home() {
 
       <section>
         <h2 className="mb-4 text-center text-2xl font-semibold">Program Features</h2>
-        <ul className="grid gap-4 list-inside list-disc md:grid-cols-2">
+        <ul className="list-inside list-disc gap-4 grid md:grid-cols-2">
           <li>Daily guided content</li>
           <li>Craving support toolkit</li>
           <li>Progress tracker</li>
